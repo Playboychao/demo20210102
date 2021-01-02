@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+@font-face
+	{
+	font-family: DebevicCircularRegular;
+	src: url(DebevicCircularRegular.ttf);
+	}
+div.top{
+	background:#000000;
+	height: 150px;
+	overflow: hidden;
+}
+/* 居中容器设置 */
+.box {
+	padding:20px 10px 20px 10px ;
+	height: 90%;
+	width: 970px;
+	margin: 0 auto;
+}
+
+div.top div.left h1 {
+	margin-top: 10px;
+	font-size:54px;
+	color:#9A9A9A;
+}
+
+div.top div.left h3 {
+	color:#1F50A7;
+	font-size: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.top div.right p {
+	width:90px;
+	text-align: center;
+	margin-top: 90px;
+	margin-left:10px;
+	color:#9A9A9A;
+	float:left;
+	padding: 10px 5px 10px 5px;
+	font-family:Helvetica ;
+	font-size: 14px;
+	border-top: 1.5px solid #9A9A9A;
+	cursor: pointer;
+/*	background-color: red;*/
+}
+div.top div.right p:hover{
+	border-top: 4px solid #1F50A7;
+	color: #1F50A7;
+}
+div.top>div.box>div.left {
+	float: left;
+}
+div.top>div.box>div.right  {
+	width: 46%;
+	float: right;
+	height: 40px;
+	
+}
+div.top div.right p.third{
+	border-top: 5px solid #1F50A7;
+	color: #1F50A7;
+}
+
+
+
+
+
+
+/* 内容格式格式 */
+.content {
+	height:972px;
+	background-color: #FFFFFF;
+}
+
+.content .box .wind{
+    /* height: 250px/1814px; */
+    height: 12.4826%;
+    width: 91%;
+	padding: 3% 4% 7% 4%;
+    border: 0.8px solid #9D9292;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+.content .box .wind h2{
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #054072;
+    margin-bottom: 2.041%;
+}
+.content .box .wind p{
+    font-size: 16px;
+	font-weight: normal;
+	text-align:justify;
+    line-height: 26px;
+    color: #4a5044;
+    word-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content .box .text {
+	height: 80%;
+}
+.content .box .text .line{
+	width: 100%;
+	margin: 0.5% 0 0.5% 0;
+	border-top: 2px solid rgba(154, 154, 154, 0.45);
+}
+.content .box .text h5{
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+    color: #494949;
+}
+.content .box .text .sample {
+	padding: 2% 2% 2% 0%;
+	height: 13%;
+	/* background-color:red; */
+}
+.content .box .text .sample .sr{
+	float: left;
+	width: 70%;
+	margin-top: -0.5%;
+}
+.content .box .text .sample .sl{
+    float: left;
+    height: 93%;
+    width: 8.9%;
+    margin-top: 0%;
+    margin-right: 4%;
+    border: 0.8px solid #9D9292;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+}
+.content .box .text .sample .sr span{
+
+	font-size: 16px;
+    word-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1F50A7;
+}
+.content .box .text .sample .sr p{
+	font-size: 16px;
+	width: 125%;
+	text-align: justify;
+	line-height: 20px;
+	margin-top: 1%;
+    word-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #494949;
+}
+
+
+/* 靠下文本设置 */
+.Testimonials {
+	margin-top: 2%;
+	height: 20%;
+}
+.Testimonials h5{
+	margin-bottom: 1.5%;
+}
+.Testimonials .ts{
+	width: 50%;
+	float: left;
+	height: 100%;
+}
+.Testimonials .ts p{
+	width: 85%;
+	font-size: 20px;
+	line-height: 1.4em;
+	margin-bottom: 2%;
+	font-weight: lighter;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #1F50A7;
+}
+.Testimonials .ts h6{
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ 
+
+
+
+
+
+
+
+/* 尾部样式 */
+.tail{
+	height: 60px;
+	background-color:white;
+}
+.tail p{
+	text-align: left;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #494949;
+}
+.tail>div.box{
+	height: 50%;
+    padding: 1.15% 0px 0px 0px;
+}
